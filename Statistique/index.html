@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="apprenez des concepts statistiques, l'analyse et le traitement des données">
+    <title>MLstat, statistique</title>
+    <link rel="stylesheet" href="stat.css" >
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>ML</span>stat</a>
+        <ul class="navbar">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="#banniere"  >Statistique</a></li>
+            <li><a href="../ia-bigdata/index.html"  >IA et Big data</a></li>
+            <li><a href="../economie/index.html"  >Economie</a></li>
+            <li><a href="../projet/index.html"  >Projets</a></li>
+            <li><a href="../actualite/index.html"  >Actualités IA</a></li>
+            <li><a href="#contact" >contact</a></li>
+        </ul>
+    </header>
+    <section class="banniere" id="banniere">
+        <div class="contenu">
+            <h2>Bienvenue sur MLstat</h2>
+            <p>La statistique est l'art de collecter, analyser et interpréter des données pour prendre des décisions éclairées et résoudre des problèmes complexes.</p>
+            <a href="#menu" class="btn1">Parcourir</a>
+            <a href="#contact" class="btn2">contact</a>
+        </div>
+    </section>
+    <section>
+        <div class="contenu_a_venir">
+            <h1>Article à venir</h1>
+            <p>
+                Nous travaillons actuellement sur des contenus riches et instructifs pour cette section.
+                Revenez bientôt pour découvrir nos articles.
+            </p>
+    </div>
+    </section>
+<!-- la partie footer------------------------------------------------------>
+    <footer id="contact">
+        <div class="titre">
+            <h2 class="titre-texte"><span>C</span>ontacts</h2>
+            <p >Vous pouvez nous contacter via les moyens suivants:</p>
+        </div>
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <img src="img/gmail.png" alt="logo de Gmail">
+                    <strong>Email :</strong> <a href="mailto: rolandkabre@gmail.com">rolandkabre@gmail.com</a>
+                </li>
+                <li>
+                    <img src="img/tel.png" alt="logo de téléphone">
+                    <strong>Téléphone</strong> <a href="tel:+226 78 94 38 68"> +226 78 94 38 68</a>
+                </li>
+                <li>
+                    <img src="img/whats.png" alt="logo de whatsapp">
+                    <strong>WhatsApp : </strong> <a href="https://wa.me/22670960534" target="_blank">+226 70 96 05 34</a>
+                </li>
+            </ul>
+        </div>
+        <p class="copy">&copy; Décembre 2024 KABRE Roland - tous droits réservés</p>
+    </footer>
+
+    <!-- Pour un menu collant-->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+        
+    </script>
+</body>
+</html>
